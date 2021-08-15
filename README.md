@@ -1,4 +1,4 @@
-# tor
+# windows tor
 
 tor.zip is for windwos
 
