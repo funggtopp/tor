@@ -11,8 +11,9 @@ you should use <code>tor -f torrc</code> to run your tor.
 ## torrc
 torrc is a very important file,especially if you are in ...
 Your torrc maybe like this:
-<code>
-  SocksPort 172.22.172.22:9050
+
+```
+SocksPort 172.22.172.22:9050
 #HTTPSProxy 127.0.0.1:8787
 #Socks5Proxy 127.0.0.1:1080
 UseBridges 1
@@ -29,4 +30,6 @@ Bridge obfs4 185.163.46.63:443 60728A289529B2A0819BC7DC7A73A780567B73C8 cert=xNf
 Bridge obfs4 195.201.14.15:37361 3BECEABD174AE41C5CCC17254A40DD24EC5372CD cert=vlSA6qJIck/UH66T/2yoMtE44lbIEJ9fLCpwUl5ffGWBT6gUYU62sQLz9EIv5DrbROm1Og iat-mode=0
 #for testing 
 NewCircuitPeriod 900
-  </code>
+```
+
+
