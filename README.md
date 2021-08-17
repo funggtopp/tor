@@ -32,4 +32,7 @@ Bridge obfs4 80.209.236.183:443 0875F92379ACA7CC3ADB3FC176338B28EF307161 cert=gc
 NewCircuitPeriod 900
 ```
 
-
+## obfs4proxy
+国内编译的时候，因为golang网站不能正常访问，所以会出现编译mod不全的情况，且无法下载.<br>
+最新编译的版本仅用于buntu.<br>
+obfs4proxy is only used for ubuntu1804.
