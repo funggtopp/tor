@@ -26,17 +26,10 @@ GeoIPv6File ./Data/geoip6
 #Log notice file ./Data/tor.log
 AvoidDiskWrites 1
 
-#CookieAuthentication 1
-#DormantCanceledByStartup 1
+ExitNodes {de},{fr},{nl},{ch}
+StrictExitNodes 1
+ExcludeNodes {jp},{kr},{cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 
-
-#ExitNodes {de},{fr},{nl},{ch},{ae},{ca}
-#ExitNodes 185.56.80.65,116.202.155.223,162.55.91.19,5.9.120.18,116.202.55.100
-#StrictExitNodes 1
-#ExitNodes 176.10.99.200,51.75.52.118,51.15.43.205,104.244.73.193,109.70.100.31,109.70.100.22,185.220.101.33,193.70.13.6,193.70.13.5,171.25.193.20
-#199.249.230.75us,27.122.59.86sg,
-#ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
-#ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 #for windows
 ClientTransportPlugin obfs4 exec ./PluggableTransports/obfs4proxy.exe
 #for linux
@@ -49,12 +42,16 @@ Bridge obfs4 195.201.14.15:37361 3BECEABD174AE41C5CCC17254A40DD24EC5372CD cert=v
 Bridge obfs4 80.209.236.183:443 0875F92379ACA7CC3ADB3FC176338B28EF307161 cert=gcWOwepy4SUWha+KBYDOYAv6Kqyf2L52ehHG/Nq7vryLcPEqU5B0776CzI+BuyUzY7JqFg iat-mode=0
 Bridge obfs4 176.123.5.206:8847 23A1030BDC7C8DCCE58A1685B1521AF35E87A0D9 cert=ghLa7M2BFsY6rvgBE7WnDUoFv/bghTmE3plzGsdQrUGNri0AYeM/Lq34Dbll8t8emH0EPQ iat-mode=0
 Bridge obfs4 51.15.6.168:60001 E106884C809EC0BCC00F1BC28F0E0D4495B5B0AC cert=mDFa9ZSzOB7V9zFmt5q0OZTB3i50Dm9IkLcAHZJo+Oasvf8AsZgo47lLVk+7vH1q3Hrkfw iat-mode=0
+
 NewCircuitPeriod 900
 KeepalivePeriod 900
 
-CircuitsAvailableTimeout 36000
+CircuitsAvailableTimeout 1800
 CircuitStreamTimeout 60
 
+HashedControlPassword 16:0F176D25F839C73F60685112A2CB8CFE97161C035B672335C8658CD5A0
+ControlPort 9051
+CookieAuthentication 1
 
 ```
 
