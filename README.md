@@ -52,12 +52,7 @@ Bridge obfs4 51.15.6.168:60001 E106884C809EC0BCC00F1BC28F0E0D4495B5B0AC cert=mDF
 NewCircuitPeriod 900
 KeepalivePeriod 900
 
-UseEntryGuards 1
-NumEntryGuards 9
-#NumPrimaryGuards 3
-
 CircuitsAvailableTimeout 36000
-CircuitIdleTimeout 36000
 CircuitStreamTimeout 60
 
 
