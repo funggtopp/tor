@@ -37,9 +37,10 @@ AvoidDiskWrites 1
 #199.249.230.75us,27.122.59.86sg,
 #ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 #ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
-
+#for windows
 ClientTransportPlugin obfs4 exec ./PluggableTransports/obfs4proxy.exe
-
+#for linux
+#ClientTransportPlugin obfs4 exec ./obfs4proxy managed
 
 Bridge obfs4 185.35.77.166:443 C21CA3ECCAD6A5DAA4992F49D829385268ABD5F5 cert=qagdYHpQz6W5Rb2U3BAdaK4QQbnLBZKH3KYpGM6ZNBS3AiuRBcH9P1HIo9VgGgCXRJQaCA iat-mode=0
 Bridge obfs4 212.21.66.66:20621 986E06A61EC62DC0DD58E0A1BB6EE54463EF408A cert=ifbMX0EZ6eqTfCuyiiR0LDEZVX2UVGHEFvqbu5qb6wCZELi5WYhEEWIIBek5MSvyTQx3CA iat-mode=0
