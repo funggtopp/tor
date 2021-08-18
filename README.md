@@ -26,7 +26,7 @@ GeoIPv6File ./Data/geoip6
 #Log notice file ./Data/tor.log
 AvoidDiskWrites 1
 
-ExitNodes {de},{fr},{nl},{ch}
+ExitNodes {de},{fr},{nl},{ch},{dk}
 StrictExitNodes 1
 ExcludeNodes {jp},{kr},{cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 
