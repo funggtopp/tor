@@ -5980,7 +5980,8 @@ var rules = [
             "zzcartoon.com",
             "zzcloud.me",
             "zzux.com",
-            "whatismyip.com.tw"
+            "whatismyip.com.tw",
+            "justmysocks.net"
         ]
     ]
 ];
