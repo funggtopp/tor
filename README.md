@@ -6,7 +6,7 @@ You can modify it in torrc<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlist.pac<br>
 ## windows tor
 
-tor.zip is for windwos
+tor.zip is for windows
 
 ## linux tor
 you should use <code>tor -f torrc</code> to run your tor.
