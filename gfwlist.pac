@@ -84,7 +84,11 @@ var rules = [
             "youdao.com",
             "zhongsou.com",
             "shandong.cn",
-            ".gov.cn"
+            ".gov.cn",
+            "ysqh.top",
+            "ysqh.synology.me",
+            "quickconnect.cn"
+            
         ],
         [
             "pornhub.com",
