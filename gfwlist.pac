@@ -87,7 +87,9 @@ var rules = [
             ".gov.cn",
             "ysqh.top",
             "ysqh.synology.me",
-            "quickconnect.cn"
+            "quickconnect.cn",
+            "zhanlue.net",
+            "edu.cn"
             
         ],
         [
