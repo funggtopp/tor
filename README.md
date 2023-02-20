@@ -5,6 +5,7 @@ You can modify it in torrc<br>
 用于脚本代理时使用。<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlist.pac<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforsquid.pac<br>
+fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforsquid.pac<br>
 
 ## windows tor
 
