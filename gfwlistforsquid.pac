@@ -93,6 +93,7 @@ var rules = [
             
         ],
         [
+            "mediawiki.org",
             "pornhub.com",
             "xvideos.com",
             "000webhost.com",
