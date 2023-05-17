@@ -96,6 +96,7 @@ var rules = [
             "mediawiki.org",
             "pornhub.com",
             "xvideos.com",
+            "1lib.fr",
             "000webhost.com",
             "030buy.com",
             "0rz.tw",
