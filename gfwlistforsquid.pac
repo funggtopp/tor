@@ -97,6 +97,7 @@ var rules = [
             "pornhub.com",
             "xvideos.com",
             "1lib.fr",
+            "hub.docker.com",
             "000webhost.com",
             "030buy.com",
             "0rz.tw",
