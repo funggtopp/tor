@@ -6,7 +6,8 @@ You can modify it in torrc<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlist.pac<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforsquid.pac<br>
 fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforsquid.pac<br>
-
+fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
+fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
 
 ## linux tor
 you should use <code>tor -f torrc</code> to run your tor.
