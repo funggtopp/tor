@@ -89,7 +89,9 @@ var rules = [
             "ysqh.synology.me",
             "quickconnect.cn",
             "zhanlue.net",
-            "edu.cn"
+            "edu.cn",
+            "boox.com",
+            "send2boox.com"
             
         ],
         [
