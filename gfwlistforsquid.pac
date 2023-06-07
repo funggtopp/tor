@@ -89,8 +89,7 @@ var rules = [
             "ysqh.synology.me",
             "quickconnect.cn",
             "zhanlue.net",
-            "edu.cn"
-            
+            "edu.cn"            
         ],
         [
             "mediawiki.org",
@@ -5097,6 +5096,7 @@ var rules = [
             "tradingview.com",
             "translate.goog",
             "translate.google",
+            "translate.googleapis.com",
             "transparency.org",
             "treemall.com.tw",
             "trendsmap.com",
