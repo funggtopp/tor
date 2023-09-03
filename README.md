@@ -8,6 +8,7 @@ fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforsquid.pac<br>
 fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforsquid.pac<br>
 fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
 fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
+日本：https://fastly.jsdelivr.net/gh/funggtopp/tor@main/gfwlistforsquid.pac<br>
 
 ## linux tor
 you should use <code>tor -f torrc</code> to run your tor.
