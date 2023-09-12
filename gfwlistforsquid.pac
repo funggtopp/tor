@@ -98,6 +98,7 @@ var rules = [
             "1lib.fr",
             "hub.docker.com",
             "firsttrade.com",
+            "firstrade.com",
             "000webhost.com",
             "030buy.com",
             "0rz.tw",
