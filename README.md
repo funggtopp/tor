@@ -5,6 +5,7 @@ You can modify it in torrc<br>
 用于脚本代理时使用。<br>
 日本：https://fastly.jsdelivr.net/gh/funggtopp/tor@main/gfwlistforsquid.pac<br>
 韩国：https://ghproxy.com/https://raw.githubusercontent.com/funggtopp/tor/main/gfwlistforsquid.pac<br>
+加速：https://raw.gitmirror.com/funggtopp/tor/main/gfwlistforsquid.pac<br>
 ## linux tor
 you should use <code>tor -f torrc</code> to run your tor.
 
