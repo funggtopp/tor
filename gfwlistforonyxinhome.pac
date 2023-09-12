@@ -100,6 +100,7 @@ var rules = [
             "xvideos.com",
             "1lib.fr",
             "hub.docker.com",
+            "firsttrade.com",
             "000webhost.com",
             "030buy.com",
             "0rz.tw",
