@@ -1,4 +1,4 @@
-var proxy = 'PROXY 172.22.172.135:3128';
+var proxy = 'PROXY 172.22.172.135:3128;PROXY 172.22.172.135:3128;DIRECT;';
 var rules = [
     [
         [],
