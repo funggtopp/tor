@@ -3,11 +3,6 @@ Tor will creat LISTEN port at 127.0.0.1:9050.<br>
 You can modify it in torrc<br>
 ## gwflist.pac
 用于脚本代理时使用。<br>
-fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlist.pac<br>
-fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforsquid.pac<br>
-fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforsquid.pac<br>
-fastgit: https://raw.fastgit.org/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
-fastgit: https://raw.iqiq.io/funggtopp/tor/main/gfwlistforonyxinhome.pac<br>
 日本：https://fastly.jsdelivr.net/gh/funggtopp/tor@main/gfwlistforsquid.pac<br>
 韩国：https://ghproxy.com/https://raw.githubusercontent.com/funggtopp/tor/main/gfwlistforsquid.pac<br>
 ## linux tor
