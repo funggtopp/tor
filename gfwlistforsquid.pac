@@ -89,7 +89,8 @@ var rules = [
             "ysqh.synology.me",
             "quickconnect.cn",
             "zhanlue.net",
-            "edu.cn"            
+            "edu.cn",
+            "plex.tv",
         ],
         [
             "mediawiki.org",
