@@ -94,6 +94,7 @@ var rules = [
         ],
         [
             "mediawiki.org",
+            "singlelogin.se",
             "pornhub.com",
             "xvideos.com",
             "1lib.fr",
