@@ -15,7 +15,7 @@ Your torrc maybe like this:
 
 ```
 #SocksPort 0.0.0.0:9050
-HTTPSProxy 172.22.172.135:3128
+#HTTPSProxy 127.0.0.1:8080
 #Socks5Proxy 127.0.0.1:1080
 #DNSPort 127.0.0.1:9053
 
