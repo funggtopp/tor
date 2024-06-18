@@ -15,7 +15,7 @@ Your torrc maybe like this:
 
 ```
 #SocksPort 0.0.0.0:9050
-#HTTPSProxy 127.0.0.1:8787
+HTTPSProxy 172.22.172.135:3128
 #Socks5Proxy 127.0.0.1:1080
 #DNSPort 127.0.0.1:9053
 
@@ -32,7 +32,7 @@ StrictExitNodes 1
 ExcludeNodes {jp},{kr},{cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 
 #for windows
-ClientTransportPlugin obfs4 exec ./PluggableTransports/obfs4proxy.exe
+ClientTransportPlugin obfs4 exec ./PluggableTransports/lyrebird.exe
 #for linux
 #ClientTransportPlugin obfs4 exec ./obfs4proxy managed
 
@@ -43,6 +43,17 @@ Bridge obfs4 80.209.236.183:443 0875F92379ACA7CC3ADB3FC176338B28EF307161 cert=gc
 Bridge obfs4 176.123.5.206:8847 23A1030BDC7C8DCCE58A1685B1521AF35E87A0D9 cert=ghLa7M2BFsY6rvgBE7WnDUoFv/bghTmE3plzGsdQrUGNri0AYeM/Lq34Dbll8t8emH0EPQ iat-mode=0
 Bridge obfs4 51.15.6.168:60001 E106884C809EC0BCC00F1BC28F0E0D4495B5B0AC cert=mDFa9ZSzOB7V9zFmt5q0OZTB3i50Dm9IkLcAHZJo+Oasvf8AsZgo47lLVk+7vH1q3Hrkfw iat-mode=0
 
+Bridge obfs4 103.167.234.157:2026 FF155BD8CF4334792E46CB418D51D052C657F3FA cert=DH/gvaFi67paj0gbjJPFOw/FQANyetwcCcIB0huSrpjGb8XYTLprKso8Ssa8yUMkRaQUGw iat-mode=0
+
+Bridge obfs4 38.132.119.154:45656 2BCA9FB31D082F7DBA53110F9D779925CDDE0418 cert=E72M82a2veJXf+ZLziO7qjWz5sXfFBiDgn1XVHFkvRiTLXqCpWso/b1dbvkiIUad+O8bOQ iat-mode=0
+
+Bridge obfs4 92.243.26.21:52175 52291B14B9993D2860CF75699D52E68C80FF5A93 cert=r5Po8/EZQFlUGH8x9jUXVz4W4YIc7RCoEJBfsjkhRaWVX4QP7CkRLQHtRjhLOsw6IArtTA iat-mode=0
+
+Bridge obfs4 5.102.61.223:2133 03FB5AF28A45562076CA5520CCAF05D7F15330E8 cert=wPwENUtgpTzI+6JzuF8fUdhnJu0gEtLQTutuTOgULnFs4G1rZtY1Byg38ra0mXMjwaovZA iat-mode=0
+
+Bridge obfs4 64.176.35.93:35828 67A12DEE78A4F4F3D9B1DC9CC9ED842FB738CB68 cert=lDeTY3OCnaGuflOvrz/76AiwmFABTtMYYhVHCh+rFgK+l46hhqvaNwTgziXy5AeRnOaZRA iat-mode=0
+
+Bridge obfs4 185.119.98.156:11316 B9AF63AD4F24DF8939725D8BA6107E8BBCF14D4E cert=TxzY/yyw2mwyK98Gi1VBYYC7SeOu7zQutSGnnOF960P0GwqJw9PEo/riPoTdKMJr7uUlNw iat-mode=0
 
 NewCircuitPeriod 900
 KeepalivePeriod 900
@@ -53,6 +64,7 @@ CircuitStreamTimeout 60
 HashedControlPassword 16:0F176D25F839C73F60685112A2CB8CFE97161C035B672335C8658CD5A0
 ControlPort 9051
 CookieAuthentication 1
+
 
 ```
 
